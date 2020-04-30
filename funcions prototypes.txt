@@ -1,2 +1,0 @@
-fun GetSerialCode (image:var);
-fun GetNetworkCarrier (void);
