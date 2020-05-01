@@ -20,6 +20,6 @@ from ImageApi import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('number/', views.number),
+    path('image/', views.image),
 
 ]
