@@ -113,7 +113,7 @@ def NameC(str):
         ss = "etisalat"
     elif (re.findall(r'فودافون|VODAFONE|vodafone', str)):
         ss = "vodafone"
-    elif (re.findall(r'اورانج|orange|Orange|اوراتج', str)):
+    elif (re.findall(r'اورانج|orange|Orange|اوراتج|اورائج', str)):
         ss="orange"
     elif (re.findall(r'وي|we|WE', str)):
         ss = "we"
