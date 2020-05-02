@@ -84,7 +84,7 @@ def get_string(img_path):
 
     # Recognize text with tesseract for python
 
-    result = pytesseract.image_to_string(img_path)
+    result = pytesseract.image_to_string(img_path,lang='eng+ara')
 
 
 
