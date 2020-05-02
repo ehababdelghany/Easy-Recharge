@@ -47,7 +47,6 @@ def get_string(img_path):
     #img = cv2.dilate(img, kernel, iterations=1)
 
     img_erode = cv2.erode(img, kernel, iterations=1)
-    img_erode = cv2.dilate(img, kernel, iterations=1)
 
 
 
