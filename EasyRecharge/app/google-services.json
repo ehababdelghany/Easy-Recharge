@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "783573644905",
+    "firebase_url": "https://easy-recharge-cfb32.firebaseio.com",
+    "project_id": "easy-recharge-cfb32",
+    "storage_bucket": "easy-recharge-cfb32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783573644905:android:bfe86e949a10e82997d4f8",
+        "android_client_info": {
+          "package_name": "com.example.easy_recharge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783573644905-qtb1h82v6bjare8o1ib1hv564romkeo2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.easy_recharge",
+            "certificate_hash": "b303407a6b622c1cc4976a594ba36a60c8ab1db7"
+          }
+        },
+        {
+          "client_id": "783573644905-bcm8gd2qpgvtus35g2khkc78gtoi3b32.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3SQ9xs-7fWIC2jPgRtNEgx_eoUESEBbc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783573644905-bcm8gd2qpgvtus35g2khkc78gtoi3b32.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
