@@ -27,7 +27,8 @@ class FileUploadView(APIView):
             # create json dictionary for the output data
             outputData = {}
             # the card serial number
-            outputData['cardNo'] = cardNo
+            # print(type(str(cardNo)))
+            outputData['cardNo'] = str(cardNo)
             # the company type
             outputData['company'] = company
             # the path of the image uploaded

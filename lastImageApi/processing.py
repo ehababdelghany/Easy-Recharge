@@ -25,15 +25,15 @@ src_path = r"D:/Faculty" # source of images
 def get_string(img_path):
 
     # Read image with opencv
-    print("soka1")
+    # print("soka1")
     img = cv2.imread(img_path)
-    print("soka")
+    # print("soka")
 
 
     # Convert to gray
 
     img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    print("sssss")
+    # print("sssss")
 
 
     # Apply dilation and erosion to remove some noise
@@ -94,36 +94,56 @@ def get_string(img_path):
 
 
 
-print ("------ Done -------")
+# print ("------ Done -------")
 # Function to extract all the numbers from the given string
 def Number(str):
-    array = re.findall(r'[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]+|[0-9][0-9][0-9][0-9][-|" "][0-9][0-9][0-9][0-9][-|" "][0-9][0-9][0-9][0-9][-|" "][0-9][0-9][0-9]+', str)
-    return array[0]
+    array = re.findall(
+        r'[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]+|[0-9][0-9][0-9][0-9][-|" "][0-9][0-9][0-9][0-9][-|" "][0-9][0-9][0-9][0-9][-|" "][0-9][0-9][0-9]+',
+        str)
+    if (len(array) > 1):
+        if (array[0] == array[1]):
+            array = array[0]
+        elif (array[0] != array[1] or array[0] != array[1] != array[2]):
+            return array[0]
+        else:
+            array = array[0]
+    return ''.join(array)
 
 def getCardNO(imageName):
     # imagePath = "../" + imageName
     str = get_string(imageName)
     array = Number(str)
-    array=array.translate({ord(c): None for c in string.whitespace})
-    array = array.replace("-","")
-    print("cardno is " + (array))
-    return array
+    array = array.replace("-", "").replace(" ", "")
+    x = int(array)
+    # print(x)
+    return (x)
 
 def NameC(imageName):
     # imagePath = "../" + imageName
-    str = get_string(imageName)
-    ss="i can't detect the sim card :("
-    if  (re.findall(r'etisalat|اتصالات|Etisalat', str)):
+    imagePath = get_string(imageName)
+    ss = "i can't detect the sim card :("
+
+    if (re.findall(r'etisalat|اتصالات|Etisalat|"*إتصالات|"*556', imagePath)):
+
         ss = "etisalat"
-    elif (re.findall(r'فودافون|VODAFONE|vodafone', str)):
+
+    elif (re.findall(r'فودافون|VODAFONE|vodafone|كارت لفرحة|فونلون|"*585*"|Vodafone', imagePath)):
+
         ss = "vodafone"
-    elif (re.findall(r'اورانج|orange|Orange|اوراتج|اورائج', str)):
-        ss="orange"
-    elif (re.findall(r'وي|we|WE', str)):
+
+    elif (re.findall(r'اورانج|orange|Orange|اوراتج|اورائج', imagePath)):
+
+        ss = "orange"
+
+    elif (re.findall(r'we|WE', imagePath)):
+
         ss = "we"
+
     return ss
+
+
 # getCardNO("media/26.jpg")
-# ss = NameC("./media/26_qQVrdSM.jpg")
+# ss = NameC("media/26.jpg")
 #ss = ss.translate({ord(c): None for c in string.whitespace})
 #ss= ss.replace("-", "")
 # print("my company is " + (ss))
