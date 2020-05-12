@@ -58,7 +58,7 @@ The App require an internet connection as it uses amazon aws cloud Platform As A
 
 # Downlaod 
 1. Android Application Link :https://github.com/ehababdelghany/Easy-Recharge/blob/master/EasyRecharge%20React%20version/apk/easy-recharge.apk 
-2. download EXPO client app from google play store and scan the QRcode to our project in this site https://expo.io/@amirshobak/easy-recharge?fbclid=IwAR1H7erOETCgLHImF0jX8wcz9B_lHUPqBEUj8eTXnL5eSjdDcjztcbCh8HU
+2. (Another Way) download EXPO client app from google play store and scan the QRcode to our project in this site https://expo.io/@amirshobak/easy-recharge?fbclid=IwAR1H7erOETCgLHImF0jX8wcz9B_lHUPqBEUj8eTXnL5eSjdDcjztcbCh8HU
 
 # video
 you can see our project video in this link https://youtu.be/DroFCSMp8tM
