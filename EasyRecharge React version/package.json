@@ -1,0 +1,44 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^10.1.0",
+    "@nestjs/common": "^7.0.9",
+    "@nestjs/core": "^7.0.9",
+    "base-64": "^0.1.0",
+    "body-parser": "^1.19.0",
+    "expo": "^37.0.8",
+    "expo-camera": "~8.2.0",
+    "expo-constants": "~9.0.0",
+    "expo-file-system": "~8.1.0",
+    "expo-image-picker": "~8.1.0",
+    "express": "^4.17.1",
+    "form-data": "^3.0.0",
+    "native-base": "^2.13.12",
+    "permissions": "^0.1.0",
+    "pod": "^0.9.0",
+    "react": "~16.9.0",
+    "react-dom": "~16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
+    "react-native-elements": "^2.0.0",
+    "react-native-image-base64": "^0.1.4",
+    "react-native-image-picker": "^2.3.1",
+    "react-native-phone-call": "^1.0.9",
+    "react-native-status-bar-height": "^2.5.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-native-web": "~0.11.7",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.5.5"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "~8.1.0",
+    "@babel/core": "^7.8.6"
+  },
+  "private": true
+}
