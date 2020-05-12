@@ -13,8 +13,10 @@ import re
 
 
 # Recognize text with tesseract for python
+# this line for windows only 
+# we use linux as a server ,so will comment it
 
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+# pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 # Path of working folder on Disk
 
