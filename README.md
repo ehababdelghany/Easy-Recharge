@@ -18,7 +18,7 @@ there are 2 versions from the application
 - Support different types of cards 
 - Recharge codes automatically according to the service provider company
 - Provide optimized , fast mobile android application
-- Share button to share detected serial number (kotlinv ersion)
+- Share button to share detected serial number (kotlin version)
 
 
 # System Architecture
