@@ -1,5 +1,5 @@
 # Easy-Recharge
-![Alt text](EasyRecharge kotlin version/photos of mobile charging cards/20.jpg)
+![](EasyRecharge kotlin version/photos of mobile charging cards/20.jpg)
 
 
 Easy Recharge is an android application that allow users to take photo of scratch card to recharge it automatically 
