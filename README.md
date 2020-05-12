@@ -1,4 +1,7 @@
 # Easy-Recharge
+![Alt text](EasyRecharge kotlin version/photos of mobile charging cards/20.jpg)
+
+
 Easy Recharge is an android application that allow users to take photo of scratch card to recharge it automatically 
 there are 2 versions from the application 
 1-react application that upload the image to server with python code that uses openCV and tesseract (finished)
