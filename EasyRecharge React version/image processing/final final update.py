@@ -138,7 +138,7 @@ print (x)
 #print(*array)
 
 
-
+#function that extract the name of the company 
 def NameC(str):
 
     ss="i can't detect the sim card :("
@@ -169,6 +169,7 @@ ss = NameC(str)
 
 #ss= ss.replace("-", "")
 
+#printing the name of the company
 print(ss)
 
 
