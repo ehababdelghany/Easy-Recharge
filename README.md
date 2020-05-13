@@ -1,5 +1,5 @@
-# contributions
- image processing contributions are in in image processing branch , and the master branch conatin the final version only , but we faced a problem that image processing folder  was deleted suddenly in the master so we uploaded it again with its photos and test cases in the Easy Recharge React version folder 
+# Contributions
+ image processing contributions are in  image processing branch , and the master branch conatin the final version only , but we faced a problem that image processing folder  was deleted suddenly in the master so we uploaded it again with its photos and test cases in the Easy Recharge React version folder 
 
 ## Easy-Recharge
 ![](images/1.jpg)
