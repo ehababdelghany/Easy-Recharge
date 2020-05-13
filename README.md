@@ -1,4 +1,5 @@
-
+# contributions
+ image processing contributions are in in image processing branch , and the master branch conatin the final version only , but we faced a problem that image processing folder  was deleted suddenly in the master so we uploaded it again with its photos and test cases in the Easy Recharge React version folder 
 
 ## Easy-Recharge
 ![](images/1.jpg)
@@ -10,8 +11,7 @@ there are 2 versions from the application
 1. react application that upload the image to server with python code that uses openCV and tesseract (finished)
 2. kotlin application that use firebase library and Ml vision(all steps are done locally) (missing some features)
 # commits of all team members appear in branches
-# contributions
- image processing contributions are in in image processing branch , and the master branch conatin the final version only , but we faced a problem that image processing folder  was deleted suddenly in the master so we uploaded it again with its test cases in the Easy Recharge React version folder 
+
 # Features 
 
 
